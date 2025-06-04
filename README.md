@@ -1,22 +1,22 @@
-🎮 Wordle Game (C++ + SFML)
+Wordle Game (C++ + SFML)
 
 A graphical implementation of the classic Wordle game built using C++ and the SFML (Simple and Fast Multimedia Library). This project was developed as a way to practice object-oriented design, GUI programming, file I/O, and C++ fundamentals.
 
-✨ Features
+Features
 
-🎨 Interactive graphical interface
+Interactive graphical interface
 
-🧠 Random word generation from answer list
+Random word generation from answer list
 
-🧾 Word validation from dictionary
+Word validation from dictionary
 
-🎹 On-screen keyboard with colored feedback
+On-screen keyboard with colored feedback
 
-🧏‍♂️ Username input and leaderboard tracking
+Username input and leaderboard tracking
 
-📊 Persistent scoring system
+Persistent scoring system
 
-📁 Folder Structure
+Folder Structure
 
 .
 
@@ -43,7 +43,7 @@ A graphical implementation of the classic Wordle game built using C++ and the SF
 └── README.md
 
 
-🛠 Requirements
+Requirements
 
 C++17 or higher
 
@@ -55,16 +55,16 @@ To install SFML:
 
 SFML Installation Guide
 
-🧱 Build Instructions
+Build Instructions
 
-🔧 Using the Provided Makefile
+Using the Provided Makefile
 
 make        # Builds the project
 ./main      # Runs the game
 
 Make sure the SFML libraries are correctly linked and available in your system path or compilation setup.
 
-🎙 Gameplay Instructions
+Gameplay Instructions
 
 Launch the game and enter your username
 
@@ -82,7 +82,7 @@ If you win, your score is saved and averaged
 
 View the leaderboard at the end
 
-🧢 File Descriptions
+File Descriptions
 
 answers.txt: List of correct answers (randomly selected)
 
@@ -90,7 +90,7 @@ allwords.txt: Full list of acceptable guesses
 
 scores.txt: Stores scores in format score,username
 
-💡 What I Learned
+What I Learned
 
 Handling window events and rendering with SFML
 
@@ -102,10 +102,6 @@ Reading/writing structured data from text files
 
 Organizing C++ code for clarity and extensibility
 
-📜 License
-
-This project is licensed under the MIT License. Feel free to fork, modify, and use as you wish!
-
-🤛 Author
+Author
 
 Made by Adil Rehan Quddus and Khadija Kazi
